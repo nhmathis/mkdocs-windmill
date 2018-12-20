@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
 }
 
 /***********************************************************************
@@ -7,10 +7,9 @@ body {
  ***********************************************************************/
 
 .navbar {
-  background-color: #546e7a;
+  background-color: #FFFFFF;
   box-shadow: 0 1.5px 3px rgba(0,0,0,.24), 0 3px 8px rgba(0,0,0,.05);
-  border: none;
-  border-radius: 0px;
+  border-bottom: 1px solid #CCCCCC;
   margin-bottom: 0px;
   height: 50px;
   z-index: 2;
@@ -21,7 +20,7 @@ body {
 }
 
 .wm-page-content {
-  max-width: 700px;
+  max-width: 900px;
   position: relative;
 }
 
@@ -63,10 +62,12 @@ body {
   display: inline-block;
   line-height: 16px;
   vertical-align: middle;
+  color: #2fa4e7;
 }
 
 .wm-top-logo {
   max-height: 100%;
+  margin-right: 25px;
 }
 
 .wm-top-version {
@@ -230,7 +231,7 @@ body {
   cursor: pointer;
 }
 
-.wm-toc-lev1 > .wm-toc-text { padding-left: 14px; }
+.wm-toc-lev1 > .wm-toc-text { padding-left: 14px; font-weight: bold;}
 .wm-toc-lev2 > .wm-toc-text { padding-left: 28px; }
 .wm-toc-lev3 > .wm-toc-text { padding-left: 42px; }
 
@@ -424,13 +425,13 @@ body {
 }
 
 h1 {
-    color: #444;
+    color: #4FADE7;
     font-weight: 400;
     font-size: 42px;
 }
 
 h2, h3, h4, h5, h6 {
-    color: #444;
+    color: #666666;
     font-weight: 300;
 }
 
@@ -478,7 +479,8 @@ a:hover code, a:focus code {
 
 footer {
     margin-bottom: 10px;
-    text-align: center;
+	margin-left: 65px;
+    text-align: left;
     font-weight: 200;
     font-size: smaller;
 }
