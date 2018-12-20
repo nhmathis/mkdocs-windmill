@@ -25,3 +25,4 @@ theme:
 ```
 Full Directions:  [Customization](https://gristlabs.github.io/mkdocs-windmill/#customization/) for extra configuration options that Windmill supports.
 3. Model the reset of your `mkdocs.yml` file based on the one in this folder.
+4. Run `mkdocs serve` in your mkdocs folder.
