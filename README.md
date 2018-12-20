@@ -1,10 +1,6 @@
-[![PyPI][pypi-image]][pypi-link]
 
-  [pypi-image]: https://img.shields.io/pypi/v/mkdocs-windmill.svg
-  [pypi-link]: https://pypi.python.org/pypi/mkdocs-windmill
-
-# Windmill theme for MkDocs
-Outstanding mkdocs theme with a focus on navigation and usability, from Grist Labs.
+# UrbanCode's Windmill theme for MkDocs
+Based on the outstanding mkdocs theme with a focus on navigation and usability, from Grist Labs.
 
 Highlights:
 - Convenient navigation for larger documentation projects.
@@ -12,21 +8,20 @@ Highlights:
 - Search with term highlighting.
 - User may search in a quick dropdown or load results in a full page.
 - Default mkdocs theme within pages, including syntax highlighting.
+- UrbanCode specific theme changes
 
 ## Quick start
 
-To install using `pip`:
-``` sh
-pip install mkdocs-windmill
+1. Clone the directory locally.
+2. Add the following snippet to your docs' `mkdocs.yml` file"
 ```
-
-To use in `mkdocs.yml`:
-``` yaml
-theme: windmill
+theme:
+    name: null
+    custom_dir: {INSTALL_DIR}/mkdocs_windmill
+    # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
+    static_templates: [404.html]
+    search_index_only: true
+    include_search_page: true
 ```
-
-## Demo and documentation
-
-More details are on this site generated with the Windmill theme:
-- [Usage](https://gristlabs.github.io/mkdocs-windmill/#) for more on installation and usage.
-- [Customization](https://gristlabs.github.io/mkdocs-windmill/#customization/) for extra configuration options that Windmill supports.
+Full Directions:  [Customization](https://gristlabs.github.io/mkdocs-windmill/#customization/) for extra configuration options that Windmill supports.
+3. Model the reset of your `mkdocs.yml` file based on the one in this folder.
