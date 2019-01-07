@@ -383,7 +383,7 @@ function initSearch() {
   $.getJSON(base_url + '/search/search_index.json')
   .done(function(data) {
     data.docs.forEach(function(doc) {
-      doc.location = base_url + doc.location;
+      doc.location = base_url + '/' + doc.location;
       searchIndex.addDoc(doc);
     });
     searchIndexReady = true;
