@@ -29,4 +29,5 @@ markdown_extensions:
 
 extra:
   history_buttons: false
+  extra.article_nav_top: true
   version: 0.1.6
