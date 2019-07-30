@@ -28,6 +28,6 @@ markdown_extensions:
       permalink: '#'
 
 extra:
-  history_buttons: false
+  history_buttons: true
   article_nav_top: true
   version: 0.1.6
